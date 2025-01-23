@@ -314,6 +314,9 @@ footer{
     color: white;
    
 }
+.img-fast{
+    width: 100%;
+}
 .nav-footer{
     align-items: center;
     margin-left: -40px;
@@ -332,9 +335,7 @@ gap: 50px;
   .header-title, .card-main, .footer-container{
     flex-direction: column;
   }
-  .four-title{
-flex-direction: column;
-  }
+  
     .baby-1, .baby-2, .btn-primary{
         display: none;
     }
@@ -344,17 +345,33 @@ flex-direction: column;
      gap: 2px;
      margin-top: 60px;
     }
-    .nav-degin{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    nav{
+    display: flex;
+    justify-content: space-between;
+      
     }
     .our-stories{
         font-size: 2rem;
     }
   .content{
-    font-size: 1rem;
+    font-size: 1.5rem;
     gap: 20px;
   }
-    
+  .four-heading{
+    display: none;
+  }
+.box-1{
+    max-width: 350px;
+    margin-left: -1px;
+}
+  .description-1{
+    margin-top: 10px;
+  }
+  .img-fast{
+    margin-left: -400px;
+  
+  }
+    .icon{
+        font-size: 2rem;
+    }
 }
