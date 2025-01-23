@@ -1,3 +1,4 @@
+/
 header{
    background-color: rgb(247, 251, 255);
 }
@@ -8,7 +9,8 @@ header{
     font-size: 50px;
 }
 .nav-degin{
-    padding: 0px 180px 0px 150px;
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,16 +96,18 @@ li a{
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    padding: 0px 180px 0 150px;
+   max-width: 1340px;
+   margin: 0 auto;
 }
 .content{
-    max-width: 600px;
+    max-width: 700px;
     font-size: 2rem;
+    /* margin:  0 auto; */
 }
 .description-1{
    /* border: 1px solid red; */
-  margin-top: -30px;
   font-size: 1.2rem;
+  margin-top: 20px;
 }
 /*main*/
 main{
@@ -134,16 +138,22 @@ main{
     box-shadow: 5px -5px 5px 10px rgb(224, 221, 221);
 }
 .card-1{
-    background-color: #DEF5FF;
+    width: 100vw;
+    height: 55vh;
+    background-image:  linear-gradient(rgb(170, 252, 255), white);
 }
 .Standard{
     padding: 20px;
 }
 .card-2{
-    background-color: rgb(252, 242, 228);
+    width: 100vw;
+    height: 55vh;
+    background-image:  linear-gradient(rgb(255, 239, 217), white);
 }
 .card-3{
-    background-color: rgb(226, 203, 248);
+    width: 100vw;
+    height: 55vh;
+    background-image:  linear-gradient(rgb(250, 178, 240), white);
 }
 .section-button{
     text-align: center;
@@ -160,8 +170,7 @@ main{
 /*section four*/
 .section-four{
     background-image: url(img/bg.png);
-    box-shadow: 2px 2px 2px 0px rgb(255, 255, 227);
-    background-color: rgb(255, 255, 227);
+   background-image: linear-gradient(white, rgb(250, 212, 218));
 }
 .font-size{
    
@@ -173,6 +182,8 @@ main{
    align-items: center;
     gap: 20px;
     width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
   
 }
 .our-stories{
@@ -267,7 +278,7 @@ main{
 }
 .story-one{
 
-    background-color: aqua;
+    background-color: rgb(37, 255, 121);
     font-weight: bold;
     color: white;
     font-size: 1.5rem;
@@ -287,8 +298,12 @@ main{
     height: 334px;
     border-radius: 20px;
 }
+.icon{
+   
+color: rgb(247, 251, 255);
+}
 footer{
-    background-color: #01ACFD ;
+    background-color: #72d2ff ;
 }
 .footer-container{
     display: flex;
@@ -305,17 +320,20 @@ footer{
     align-items: center;
     color: white;
     font-size: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 /* .icon{
-    display: none;
+  display: none;
 } */
 .footer-header, .div-last{
   
     color: white;
    
 }
-.img-fast{
+.img-fast img{
     width: 100%;
+
 }
 .nav-footer{
     align-items: center;
@@ -332,10 +350,18 @@ gap: 50px;
 }
 
 @media screen and (max-width: 576px) {
-  .header-title, .card-main, .footer-container{
+   .card-main, .footer-container{
     flex-direction: column;
   }
-  
+  .header-title{
+    flex-direction: column-reverse;
+    text-align: center;
+
+  }
+ 
+  .img-fast img{
+    width: 100%;
+  }
     .baby-1, .baby-2, .btn-primary{
         display: none;
     }
@@ -348,14 +374,21 @@ gap: 50px;
     nav{
     display: flex;
     justify-content: space-between;
-      
+      padding: 10px;
     }
     .our-stories{
         font-size: 2rem;
     }
+    .section-one{
+        max-width: 576px;
+        margin:  0 auto;
+        border: 1px solid red;
+        margin-left: -40px;
+    }
   .content{
-    font-size: 1.5rem;
-    gap: 20px;
+    font-size: 1rem;
+   max-width: 320px;
+    margin: 0 auto;
   }
   .four-heading{
     display: none;
@@ -367,11 +400,10 @@ gap: 50px;
   .description-1{
     margin-top: 10px;
   }
-  .img-fast{
-    margin-left: -400px;
+
   
-  }
     .icon{
         font-size: 2rem;
+        color: black;
     }
 }
