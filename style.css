@@ -1,4 +1,4 @@
-/
+
 header{
    background-color: rgb(247, 251, 255);
 }
@@ -140,7 +140,7 @@ main{
 .card-1{
     width: 100vw;
     height: 55vh;
-    background-image:  linear-gradient(rgb(170, 252, 255), white);
+    background-image:  linear-gradient( rgb(118, 118, 255) , white 98%);
 }
 .Standard{
     padding: 20px;
