@@ -30,7 +30,7 @@ li a{
 /*sheard color*/
 .holod-1{
     color: #FEA301;
-    font-size: 4.5rem;
+    /* font-size: 4.5rem; */
 }
 .holod{
     color : #FEA301;
@@ -40,9 +40,10 @@ li a{
     color: #01ACFD;
     font-size: 1.5rem;
 }
+
 .nav-1{
     color: #01ACFD;
-    font-size: 4.5rem;
+    /* font-size: 4.5rem; */
 }
 .nav-blue{
     color: #05D4DF;
@@ -97,6 +98,7 @@ li a{
 }
 .content{
     max-width: 600px;
+    font-size: 2rem;
 }
 .description-1{
    /* border: 1px solid red; */
@@ -158,7 +160,8 @@ main{
 /*section four*/
 .section-four{
     background-image: url(img/bg.png);
-    /* text-align: center; */
+    box-shadow: 2px 2px 2px 0px rgb(255, 255, 227);
+    background-color: rgb(255, 255, 227);
 }
 .font-size{
    
@@ -303,6 +306,9 @@ footer{
     color: white;
     font-size: 1.5rem;
 }
+/* .icon{
+    display: none;
+} */
 .footer-header, .div-last{
   
     color: white;
@@ -326,10 +332,29 @@ gap: 50px;
   .header-title, .card-main, .footer-container{
     flex-direction: column;
   }
+  .four-title{
+flex-direction: column;
+  }
     .baby-1, .baby-2, .btn-primary{
         display: none;
     }
-    .font-size{
-       font-size: 20px;
+    .four-main{
+        display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 2px;
+     margin-top: 60px;
     }
+    .nav-degin{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .our-stories{
+        font-size: 2rem;
+    }
+  .content{
+    font-size: 1rem;
+    gap: 20px;
+  }
+    
 }
