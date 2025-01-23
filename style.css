@@ -360,7 +360,8 @@ gap: 50px;
   }
  
   .img-fast img{
-    width: 100%;
+max-width: 280px;
+margin: 0 auto;
   }
     .baby-1, .baby-2, .btn-primary{
         display: none;
@@ -369,12 +370,21 @@ gap: 50px;
         display: grid;
      grid-template-columns: repeat(2, 1fr);
      gap: 2px;
-     margin-top: 60px;
+     /* margin-top: 60px; */
+     max-width: 430px;
+     margin: 0 auto;
     }
-    nav{
+   header{
+    max-width: 350px;
+    margin: 0 auto;
+ border: 1px solid red;
+}
+    .nav-degin{
     display: flex;
     justify-content: space-between;
       padding: 10px;
+      max-width: 300px;
+      margin: 0 auto;
     }
     .our-stories{
         font-size: 2rem;
@@ -382,12 +392,11 @@ gap: 50px;
     .section-one{
         max-width: 576px;
         margin:  0 auto;
-        border: 1px solid red;
         margin-left: -40px;
     }
   .content{
     font-size: 1rem;
-   max-width: 320px;
+   max-width: 300px;
     margin: 0 auto;
   }
   .four-heading{
@@ -400,7 +409,10 @@ gap: 50px;
   .description-1{
     margin-top: 10px;
   }
-
+.card-contrent{
+    max-width: 320px;
+    margin: 0 auto;
+}
   
     .icon{
         font-size: 2rem;
