@@ -75,7 +75,7 @@ li a{
 }
 .btn-secend{
     text-align: center;
-    padding: 100px;
+    padding-bottom: 50px;
 }
 .dark-3{
     color: #000000;
@@ -133,7 +133,7 @@ main{
     max-width: 300px;
     text-align: center;
     font-size: 20px;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 10px;
     box-shadow: 5px -5px 5px 10px rgb(224, 221, 221);
 }
@@ -276,6 +276,11 @@ main{
     padding: 10px; */
 
 }
+.btn-primary:hover{
+    background-color: blue;
+    padding: 12px 60px;
+    transition: all ease-in-out 0.4s;
+}
 .story-one{
 
     background-color: rgb(37, 255, 121);
@@ -294,8 +299,8 @@ main{
 }
 .four-type{
     background-color: white;
-    /* width: 100%; */
-    height: 334px;
+    width: 100%;
+    height: 340px;
     border-radius: 20px;
 }
 .icon-hr{
@@ -336,6 +341,9 @@ footer{
     width: 100%;
 
 }
+.four-none{
+    display: none;
+}
 .nav-footer{
     align-items: center;
     margin-left: -40px;
@@ -349,36 +357,46 @@ li a{
 list-style: none;
 gap: 50px;
 }
+.div-tag{
+    display: none;
+}
 
 @media screen and (max-width: 576px) {
    .card-main, .footer-container{
     flex-direction: column;
   }
+
   .header-title{
     flex-direction: column-reverse;
     text-align: center;
 
   }
- 
+  .four-none{
+    display: block;
+  }
+ .div-tag{
+    display: block;
+ }
   .img-fast img{
-max-width: 280px;
+max-width: 220px;
 margin: 0 auto;
   }
     .baby-1, .baby-2, .btn-primary{
         display: none;
     }
     .four-main{
-        display: grid;
-     grid-template-columns: repeat(1, 1fr);
-     gap: 24px;
-     /* margin-top: 60px; */
-     max-width: 430px;
-     margin: 0 auto;
+        /* display: grid; */
+     grid-template-columns: repeat(2, 1fr);
+     gap: 5px;
+
     }
-   header{ 
-    max-width: 350px;
-    margin: 0 auto;
-}
+    .div-one{
+     margin-left: -0.2px;
+    }
+    .four-type{
+       width: 100%;
+       height: 250px; 
+    }
     .nav-degin{
     display: flex;
     justify-content: space-between;
@@ -391,7 +409,7 @@ margin: 0 auto;
     .section-one{
         max-width: 576px;
         margin:  0 auto;
-        margin-left: -40px;
+       
     }
   .content{
     font-size: 1rem;
@@ -406,15 +424,24 @@ margin: 0 auto;
     margin-left: -1px;
 }
 .icon-hr{
-    display: block;
-    font-size: 2rem;
+ display: block; 
+   
+}
+.hr-div{
+    font-size: 4rem;
+    color: #FEA301;
+    margin-top: -30px;
+}
+.hr-icon{
+    margin-top: 20px;
 }
   .description-1{
-    margin-top: 10px;
+    margin-top: 40px;
   }
+  
 .card-contrent{
-    max-width: 320px;
-    margin: 0 auto;
+    /* max-width: 320px;
+    margin: 0 auto; */
 }
   
     .icon{
@@ -422,6 +449,7 @@ margin: 0 auto;
         color: black;
         display: block;
     }
+  
 }
 @media screen  and (min-width: 576px) and (max-width: 990px) {
     .nav-degin{
