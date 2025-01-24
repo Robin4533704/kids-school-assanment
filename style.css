@@ -303,7 +303,7 @@ main{
     height: 340px;
     border-radius: 20px;
 }
-.icon-hr{
+#icon-hr{
     display: none;
 }
 
@@ -423,27 +423,22 @@ margin: 0 auto;
     max-width: 350px;
     margin-left: -1px;
 }
-.icon-hr{
+#icon-hr{
  display: block; 
    
 }
-.hr-div{
-    font-size: 4rem;
+#hr-div{
+    font-size: 3rem;
     color: #FEA301;
-    margin-top: -30px;
+   
 }
-.hr-icon{
-    margin-top: 20px;
+#hr-icon{
+    font-size: 3rem;
+    color: #FEA301;
 }
   .description-1{
     margin-top: 40px;
   }
-  
-.card-contrent{
-    /* max-width: 320px;
-    margin: 0 auto; */
-}
-  
     .icon{
         font-size: 2rem;
         color: black;
