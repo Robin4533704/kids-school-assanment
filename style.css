@@ -51,6 +51,20 @@ li a{
     color: #05D4DF;
     font-size: 1.5rem;
 }
+.view-btn{
+   text-align: center;
+   padding: 24px; 
+}
+.btn-view{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #000000;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+}
 .addmition{
     color: #5D58EF;
 }
@@ -298,7 +312,7 @@ main{
    /* position: absolute; */
 }
 .btn-one{
-
+margin-left: 10px;
     /* position: relative; */
 }
 .four-type{
@@ -392,6 +406,7 @@ margin: 0 auto;
         /* display: grid; */
      grid-template-columns: repeat(2, 1fr);
      gap: 12px;
+     
 
     }
     .div-one{
@@ -450,7 +465,7 @@ margin: 0 auto;
         color: black;
         display: block;
     }
-  
+   
 }
 @media screen  and (min-width: 576px) and (max-width: 990px) {
     .nav-degin{
@@ -496,7 +511,7 @@ margin: 0 auto;
         grid-template-columns: repeat(2, 1fr); /* 3 columns */
         
     }
- 
+
     .icon {
        display: block;
        cursor: pointer;
