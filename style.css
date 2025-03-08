@@ -76,6 +76,7 @@ li a{
 .btn-secend{
     text-align: center;
     padding-bottom: 50px;
+    padding-top: 24px;
 }
 .dark-3{
     color: #000000;
@@ -387,7 +388,7 @@ margin: 0 auto;
     .four-main{
         /* display: grid; */
      grid-template-columns: repeat(2, 1fr);
-     gap: 5px;
+     gap: 12px;
 
     }
     .div-one{
@@ -411,6 +412,7 @@ margin: 0 auto;
         margin:  0 auto;
        
     }
+   
   .content{
     font-size: 1rem;
    max-width: 300px;
